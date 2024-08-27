@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #1b0c1a;
+}
+
+#navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #2d222f;
+    color: burlywood;
+    font-size: 40px;
+    letter-spacing: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titlebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    filter: brightness(80%);
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#background-image {
+    width: 80%;
+    filter: brightness(50%);
+}
+
+#welcomeText {
+    text-align: center;
+    filter: brightness(100%);
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+#games {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-card {
+    height: 50vh;
+    width: 80%;
+    background-color: #4b2138;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+#tictactoe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tictactoe-desc{
+    height: 100%;
+    width: 60%;
+    padding: 0px 20px 0px 20px;
+}
+
+#ticTacToeimage{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#tictactoe-image{
+    height: 100%;
+}
+
+#tictactoe-title{
+    height: 30%;
+    color: burlywood;
+    font-size: 40px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tictactoe-desc-text{
+    font-size: 25px;
+    text-align: center;
+    line-height: 150%;
+    height: 50%;
+    width: 100%;
+    font-weight: 100;
+}
+
+#sudokuimage {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#sudoku-image{
+    height: 100%;
+}
+
+#sudoku {
+    display: flex;
+    justify-content: center;
+}
+
+#sudoku-desc{
+    height: 100%;
+    width: 60%;
+    padding: 0px 20px 0px 20px;
+}
+
+
+#sudoku-title {
+    height: 30%;
+    color: burlywood;
+    font-size: 40px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sudoku-desc-text {
+    font-size: 30px;
+    text-align: center;
+    line-height: 150%;
+    height: 50%;
+    width: 100%;
+    font-weight: 100;
+}
+
+
+#rockPaperSesor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rockPaperSesor{
+    height: 100%;
+    width: 50%;
+}
+#rockPaperSesorimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#rockPaperSesor-image{
+    height: 100%;
+}
+
+#rockPaperSesor-desc{
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+#rockPaperSesor-title{
+    height: 30%;
+    color: burlywood;
+    font-size: 40px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#rockPaperSesor-desc-text{
+    font-size: 30px;
+    text-align: center;
+    line-height: 150%;
+    height: 50%;
+    width: 100%;
+    font-weight: 100;
+}
+
+
+
+
+/* From Uiverse.io by WhiteNervosa */
+button {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+a {
+    text-decoration: none;
+}
+
+#play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    letter-spacing: 20px;
+    color: burlywood;
+}
+
+button:focus,
+button:hover {
+    color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+
+#footer{
+    min-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #2d222f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 200%;
+}
